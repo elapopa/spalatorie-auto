@@ -50,6 +50,7 @@ padding-right: 10px;
   background-color: #125199 !important;
   transition-duration: 0.2s;
 }
+
 .navbar-toggle {
   background-color: #125199 !important;
 }
@@ -84,7 +85,7 @@ padding-right: 10px;
   margin: 0;
   background-color: rgba(255,255,255,0.6);
   border-radius: 5px;
-  color: #000;
+  color: #fff;
   text-align: center;
   padding: 5px;
 
