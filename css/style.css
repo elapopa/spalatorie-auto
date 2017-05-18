@@ -41,7 +41,9 @@ padding-right: 10px;
   font-size: 17px;
   color: black !important;
 }
-.nav .active,
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover,
 .nav li a:focus,
 .nav li a:hover {
   color: #fff !important;
@@ -206,6 +208,9 @@ margin-top: 0px;
 }
 .contact .col-sm-7 {}
 .contact .col-sm-5 {}
+.contact iframe {
+  width: 100%;
+}
 .contact p {}
 .contact span {
   color: #125199;
