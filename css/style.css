@@ -1,0 +1,255 @@
+
+body, html {
+font-family: 'Open Sans', sans-serif;
+width: 100% !important;
+  height: 100% !important;  
+}
+
+.space {
+  height: 100px;
+ 
+}
+/* banner */
+.container_1 {}
+.container_1 .row {}
+.img_banner {
+  background-image: url("../img/wash2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 240px;
+  width: 100%;
+}
+
+/* navbar */
+
+.navbar {
+  background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+.container_2 {}
+.nav ul {
+margin-right: 25px;
+padding-right: 10px;
+}
+.nav li {}
+.nav li a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  color: black !important;
+}
+.nav .active,
+.nav li a:focus,
+.nav li a:hover {
+  color: #fff !important;
+  background-color: #125199 !important;
+  transition-duration: 0.2s;
+}
+.navbar-toggle {
+  background-color: #125199 !important;
+}
+.navbar-toggle span {
+  background-color: #fff !important;
+}
+
+/* home section */
+.home {
+  margin-top: 120px;  
+}
+.home .row {}
+.home .row .col-sm-4 {
+  text-align: center;
+
+}
+.home .img-wrapper {
+  position: relative;
+}
+.home img {
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  -webkit-filter: grayscale(60%);
+    filter: grayscale(60%);
+   
+}
+
+.home h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  background-color: #1B7AE5;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+
+}
+.img-overlay {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+/* contact button section */
+.contact-button {
+margin-top: 0px;
+
+}
+.contact-button .col-sm-4 {
+  text-align: center;
+}
+.contact-button button {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  background-color: #125199;
+  z-index: 9999;
+  
+}
+.contact-button button:hover {
+  color: #fff;
+}
+
+/* modal */
+.modal {}
+.modal-dialog {}
+.modal-content {}
+.modal-header {}
+.modal-body {}
+.modal-body .form-horizontal {}
+.modal-body .form-horizontal .form-group {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.modal-footer {}
+
+/* about section */
+
+.about {
+  background-color: rgb(245, 245, 245);
+  padding-bottom: 20px;
+}
+.about .container {}
+.about .row {}
+.about .col-md-12 {}
+.about h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+.about p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 5px;
+  padding: 10px;
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 1.5;
+}
+
+
+/* section services */
+.services {
+  background-color: rgb(245, 245, 245);
+  padding: 40px 0;
+}
+.services .container {
+  height: 100%;
+}
+.services .row {}
+.services .col-md-12 {
+  text-align: center;
+  padding: 10px 0;
+}
+.services .services-heading {
+ font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.services .row-2 {}
+.services .col-sm-4 {
+  text-align: center;
+}
+.services i {
+  color: #125199;
+}
+.services p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 5px;
+  padding: 10px;
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 1.5;
+}
+
+/* contact section */
+.contact {
+  padding: 80px 0;
+}
+.contact .row {}
+.contact h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.contact .col-sm-7 {}
+.contact .col-sm-5 {}
+.contact p {}
+.contact span {
+  color: #125199;
+}
+
+/* footer */
+.footer {
+  background-color: rgb(245, 245, 245);
+  padding: 40px 0;
+}
+.footer .container {}
+.footer .row {}
+.footer .col-sm-5 {}
+.footer a {
+  color: #125199;
+}
+
+
+
+
+
+
+
+
+
+/* affix navbar scroll */
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+
+
+@media only screen and (max-width: 770px)  {
+  .home img {
+          margin-top: 15px;
+           }
+
+  #btn-1,
+  #btn-2 {
+    display: none;
+  }
+  
+}
