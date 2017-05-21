@@ -144,6 +144,7 @@ margin-top: 0px;
 .about {
   background-color: rgb(245, 245, 245);
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 .about .container {}
 .about .row {}
@@ -153,6 +154,7 @@ margin-top: 0px;
   font-weight: bold;
   text-align: center;
   padding: 5px;
+  margin-top: 10px;
 }
 .about p {
   font-family: 'Open Sans', sans-serif;
@@ -167,24 +169,24 @@ margin-top: 0px;
 /* section services */
 .services {
   background-color: rgb(245, 245, 245);
-  padding: 40px 0;
+  padding: 30px 0;
 }
 .services .container {
   height: 100%;
 }
 .services .row {}
-.services .col-md-12 {
-  text-align: center;
-  padding: 10px 0;
-}
+.services .col-md-12 {}  
 .services .services-heading {
  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   padding: 10px 0;
+  margin-top: 10px;
+  text-align: center;
 }
 .services .row-2 {}
 .services .col-sm-4 {
   text-align: center;
+  margin: 10px 0;
 }
 .services i {
   color: #125199;
@@ -200,19 +202,38 @@ margin-top: 0px;
 
 /* contact section */
 .contact {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 .contact .row {}
 .contact h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+  margin-top: 10px;
 }
-.contact .col-sm-7 {}
+.contact .col-sm-5 {}
+.contact form {
+  margin-top: 20px;
+}
+.contact .form-group {}
+.contact label {
+  text-indent: 12px;
+}
+.contact .form-group input {}
+.contact .form-control textarea {}
+.contact .form-group button {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  background-color: #125199;
+}
+.contact .col-sm-2 {}
 .contact .col-sm-5 {}
 .contact iframe {
   width: 100%;
+  margin-top: 20px;
 }
-.contact p {}
+.contact p {
+margin-top: 20px;
+}
 .contact span {
   color: #125199;
 }
@@ -220,7 +241,7 @@ margin-top: 0px;
 /* footer */
 .footer {
   background-color: rgb(245, 245, 245);
-  padding: 40px 0;
+  padding: 20px 0;
 }
 .footer .container {}
 .footer .row {}
